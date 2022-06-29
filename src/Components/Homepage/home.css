@@ -1,0 +1,33 @@
+.homepage-content {
+    background-color: #0b0b0b;
+    padding-left: 90px;
+    min-height: 100vh;
+    padding-top: 130px;
+    flex-direction: column;
+  }
+  
+  .homepage-card {
+    width: 241px;
+    height: 410px;
+    border: 1px #0b0b0b;
+    border-radius: 50px;
+    margin-right: 30px;
+    
+  }
+  
+  .img-card {
+    width: 241px;
+    height: 312px;
+  }
+  
+  .homepage-h2,
+  .card-title {
+    font-weight: 600;
+    color: #f74d4d;
+    padding-bottom: 20px;
+  }
+  
+  .card-body {
+    background-color: #212121;
+  }
+  

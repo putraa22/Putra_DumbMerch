@@ -1,0 +1,30 @@
+.navbar-brand {
+    width: 70px;
+    height: 70px;
+  }
+  
+.navs {
+    width: 100%;
+    position: fixed;
+    padding-top: 90px;
+    
+  }
+  
+.navbar {
+    display: flex;
+    padding-left: 90px;
+    background-color: #0b0b0b;
+  }
+  
+.collink {
+    padding-right: 180px;
+  }
+  
+.links {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    padding-left: 30px;
+  }
