@@ -2,6 +2,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./login.css";
 import Logo from "../../Asset/img/logo.png";
+import { Form, Button } from 'react-bootstrap';
 
 
 
@@ -22,33 +23,24 @@ export default function Login  () {
               </p>
             </div>
             <div className="btns">
-              <input class="btn-login btn" type="button" value="Login"></input>
-              <input
-                class="btn-register btn ms-2"
-                type="button"
-                value="Register"
-              ></input>
+              <Button className='btn-login me-3' variant='danger' type='submit'>Login</Button>
+              <Button className='btn-register' variant='danger' type='submit'>Register</Button>
             </div>
           </div>
           <div className="col-4">
-            <form className="right">
-              <h2 className="login">Login</h2>
-              <input
-                type="email"
-                className="form-control mt-5 "
-                id="exampleFormControlInput1"
-                placeholder="Email"
-              />
-              <input
-                type="password"
-                className="form-control mt-3"
-                id="exampleFormControlInput1"
-                placeholder="Password"
-              />
-              <button class="btn mt-5" type="submit">
-                Login
-              </button>
-            </form>
+            <Form className='right'>
+              <h2 className='login mb-4'>Login</h2>
+              <Form.Group className='mb-3'>
+                <Form.Control type='email' placeholder='Enter Email' />
+              </Form.Group>
+
+              <Form.Group>
+                <Form.Control type='password' placeholder='Enter Password' />
+              </Form.Group>
+
+              <Button className='mt-5' variant="danger" type="submit">Login</Button>
+
+            </Form>
           </div>
         </div>
       </div>

@@ -1,8 +1,7 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./NavbarUser.css"
-import Logo from "../../Asset/img/logo.png";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './NavbarUser.css'
+import Logo from '../../Asset/img/logo.png';
+import { Link } from 'react-router-dom';
 
 function NavbarUser() {
     return(

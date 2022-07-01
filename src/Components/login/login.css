@@ -43,23 +43,18 @@
     margin-top: 50px !important;
   }
   
-  .btn {
-    background-color: #f74d4d;
-    width: 100%;
-    color: white;
-    font-weight: 700;
-  }
-  
   .btn-login {
     background-color: #f74d4d;
     width: 135px;
     height: 40px;
   }
+
   .btn-register {
     background-color: #0b0b0b;
     width: 135px;
     height: 40px;
     font-weight: 500;
+    border: none;
   }
   
   .login {
