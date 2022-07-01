@@ -9,6 +9,7 @@ import Login from './Components/login/login';
 import Register from './Components/register/register';
 import HomePage from './Components/Homepage/home';
 import NavbarUser from './Components/Navbars/NavbarUser';
+import DetailProduct from './Components/DetailProduct/DetailProduct';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/detail' element={<DetailProduct />} />
       </Routes>
     </BrowserRouter>
     

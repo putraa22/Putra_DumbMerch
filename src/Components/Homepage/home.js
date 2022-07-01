@@ -4,6 +4,8 @@ import './home.css';
 
 
 function HomePage() {
+
+
     return(
     <div className="homepage-content d-flex justify-content-start">
       <h2 className="homepage-h2">Product</h2>
@@ -19,7 +21,7 @@ function HomePage() {
 
 
         <Card 
-          imageUrl="https://images.unsplash.com/photo-1535381273077-21e00c27b1b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          imageUrl="https://images.unsplash.com/photo-1580684375911-d0c004b19143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Zm90b3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
           title="Griting Card"
           harga="100.000"
           stock="10"
