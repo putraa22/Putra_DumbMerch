@@ -1,0 +1,106 @@
+.P-container {
+    margin-top: 7rem;
+    height: 500px;
+  }
+
+
+/* Image Section */
+  .P-judul {
+    color: #f74d4d;
+    font-weight: 700;
+  }
+
+.Profile-Image {
+    width: 330px;
+    height: 430px;
+    border-radius: 10px;
+    
+}
+
+/* Image Section */
+  
+  /* .p-content {
+    padding-top: 50px;
+    padding-left: 120px;
+  } */
+  
+/* Detail Profile Section */
+
+
+.P-labels{
+    color: #f74d4d;
+    font-weight: 700;
+    padding-top: 50px; 
+    display: block; 
+}
+
+.P-Detail-Profile{
+    display: block;
+    color: #f74d4d;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+/* Detail Profile Section */
+ 
+/* Card Section */
+
+.Profile-Card{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #5f5f5f;
+}
+
+.p-img-card {
+    width: 100px;
+    height: 110px;
+    padding-left: 7px;
+    border-radius: 9px;
+  }
+
+.p-red {
+    color: #f74d4d;
+}
+.P-Text-Small{
+    font-size: 10px;
+    color: #fff;
+}
+
+.P-Total {
+    font-size: 14px;
+    color: #fff;
+}
+
+.p-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-logos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+.P-Logo {
+    width: 80px;
+    height: 80px;
+    padding-right: 5px;
+    
+  }
+
+
+/* Card Section */
+
+  
+
+  
+
+  
+
+
+
+  
+
+  
