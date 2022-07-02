@@ -1,0 +1,29 @@
+.Edit-container {
+    margin-top: 7rem;
+    color: #fff;
+
+}
+
+.btn-Edit-Product{
+    margin-top: 9px;
+    width: auto;
+    height: auto;
+}
+
+.file-Product-Name{
+    display: flex;
+}
+
+.file-name-product{
+    margin-left: 8px;
+}
+
+.Form-Edit-Product{
+   margin-bottom: 15px;
+   background-color: rgb(114, 114, 114);
+   border: none;
+}
+.success{
+    background-color: #56c05a;
+    margin-top: 50px;
+}

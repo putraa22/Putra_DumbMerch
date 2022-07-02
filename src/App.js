@@ -13,6 +13,7 @@ import DetailProduct from './Components/DetailProduct/DetailProduct';
 import ProfilePage from './Components/Profile/ProfilePage';
 import CategoryPage from './Components/ListCategory/CategoryPage';
 import ListProduct from './Components/ListProduct/ListProduct';
+import EditProduct from './Components/EditProduct/EditProduct';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/profile' element={<ProfilePage />} />
         <Route path='/category' element={<CategoryPage />} />
         <Route path='/list' element={<ListProduct />} />
+        <Route path='/edit-product' element={<EditProduct />} />
       </Routes>
     </BrowserRouter>
     

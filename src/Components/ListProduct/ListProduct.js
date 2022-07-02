@@ -1,6 +1,7 @@
 import React from 'react';
 import './ListProductStyle.css';
 import { Container , Row , Col , Button  } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 function ListProduct() {
   return (
@@ -12,7 +13,7 @@ function ListProduct() {
         </div>
 
         <Container className='List-product-content'>
-            <Row>
+            <Row className='Product-Row'>
                 <Col md>No</Col>
                 <Col md className='Product-List-Header'>Photo</Col>
                 <Col md className='Product-List-Header'>Product Name</Col>
@@ -21,8 +22,57 @@ function ListProduct() {
                 <Col md className='Product-List-Header'>Qty</Col>
                 <Col md className='Product-List-Header'>Action</Col>
             </Row>
-            <Row>
+
+            <Row className='Product-Row'>
                 <Col md>1</Col>
+                <Col md className='List-isi'>Mouse.jpeg</Col>
+                <Col md className='List-isi'>Mouse</Col>
+                <Col md className='List-isi'>Mouse Serbag...</Col>
+                <Col md className='List-isi'>Rp. 400.000</Col>
+                <Col md className='List-isi'>189</Col>
+                <Col md className='action'>
+                    <Button className='btn-edit me-2' variant="success" type='submit'><Link className='Link-list-Product' to="../edit-product">Edit</Link></Button>
+                    <Button className='btn-delete' variant="danger" type='submit'>Delete</Button>
+                </Col>
+            </Row>
+            <Row className='Product-Row'>
+                <Col md>2</Col>
+                <Col md className='List-isi'>Mouse.jpeg</Col>
+                <Col md className='List-isi'>Mouse</Col>
+                <Col md className='List-isi'>Mouse Serbag...</Col>
+                <Col md className='List-isi'>Rp. 400.000</Col>
+                <Col md className='List-isi'>189</Col>
+                <Col md className='action'>
+                    <Button className='btn-edit me-2' variant="success" type='submit'>Edit</Button>
+                    <Button className='btn-delete' variant="danger" type='submit'>Delete</Button>
+                </Col>
+            </Row>
+            <Row className='Product-Row'>
+                <Col md>3</Col>
+                <Col md className='List-isi'>Mouse.jpeg</Col>
+                <Col md className='List-isi'>Mouse</Col>
+                <Col md className='List-isi'>Mouse Serbag...</Col>
+                <Col md className='List-isi'>Rp. 400.000</Col>
+                <Col md className='List-isi'>189</Col>
+                <Col md className='action'>
+                    <Button className='btn-edit me-2' variant="success" type='submit'>Edit</Button>
+                    <Button className='btn-delete' variant="danger" type='submit'>Delete</Button>
+                </Col>
+            </Row>
+            <Row className='Product-Row'>
+                <Col md>4</Col>
+                <Col md className='List-isi'>Mouse.jpeg</Col>
+                <Col md className='List-isi'>Mouse</Col>
+                <Col md className='List-isi'>Mouse Serbag...</Col>
+                <Col md className='List-isi'>Rp. 400.000</Col>
+                <Col md className='List-isi'>189</Col>
+                <Col md className='action'>
+                    <Button className='btn-edit me-2' variant="success" type='submit'>Edit</Button>
+                    <Button className='btn-delete' variant="danger" type='submit'>Delete</Button>
+                </Col>
+            </Row>
+            <Row className='Product-Row'>
+                <Col md>4</Col>
                 <Col md className='List-isi'>Mouse.jpeg</Col>
                 <Col md className='List-isi'>Mouse</Col>
                 <Col md className='List-isi'>Mouse Serbag...</Col>

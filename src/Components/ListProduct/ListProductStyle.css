@@ -4,33 +4,48 @@
 }
 
 .List-product-content {
-    background-color: #fff;
-    color: black;
-  }
+    color:#fff;
+}
   
 
 .btn-edit {
     background-color: #56c05a;
     width: 80px;
-    height: 40px;
+    height: auto;
 }
   
 .btn-delete {
     background-color: #f74d4d;
     width: 80px;
-    height: 40px;
+    height: auto;
 }
   
   .action {
     display: flex;
+    justify-content: center;
   }
   
 .Product-List-Header{
-    text-align: center;
     padding-bottom: 7px;
     font-weight: 700;
 }
 
 .List-isi{
-    text-align: center;  
+    text-align: center;
 } 
+
+.Product-Row{
+    border-bottom: 2px solid #fff;
+    background-color: rgb(58, 58, 58);
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+
+.Link-list-Product{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.Link-list-Product:hover{
+    color: #fff;
+}

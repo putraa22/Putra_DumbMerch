@@ -24,6 +24,9 @@ function NavbarUser() {
             <Link className="links" to="../register">
               Register
             </Link>
+            <Link className='links' to="../list">
+              Product
+            </Link>
             <Link className="links" to="../register">
               Logout
             </Link>
