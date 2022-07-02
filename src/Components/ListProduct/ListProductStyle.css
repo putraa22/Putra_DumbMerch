@@ -1,0 +1,36 @@
+.container-list-product {
+    color: #fff;
+    margin-top: 7rem;
+}
+
+.List-product-content {
+    background-color: #fff;
+    color: black;
+  }
+  
+
+.btn-edit {
+    background-color: #56c05a;
+    width: 80px;
+    height: 40px;
+}
+  
+.btn-delete {
+    background-color: #f74d4d;
+    width: 80px;
+    height: 40px;
+}
+  
+  .action {
+    display: flex;
+  }
+  
+.Product-List-Header{
+    text-align: center;
+    padding-bottom: 7px;
+    font-weight: 700;
+}
+
+.List-isi{
+    text-align: center;  
+} 

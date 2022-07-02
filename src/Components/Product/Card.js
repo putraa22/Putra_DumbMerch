@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 
 function CardProduct(props) {
 
-    const [modalShow, setModalShow] = React.useState(false);
-
     return(
         <>
             <Card className="Header">
