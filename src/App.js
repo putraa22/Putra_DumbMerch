@@ -11,6 +11,7 @@ import HomePage from './Components/Homepage/home';
 import NavbarUser from './Components/Navbars/NavbarUser';
 import DetailProduct from './Components/DetailProduct/DetailProduct';
 import ProfilePage from './Components/Profile/ProfilePage';
+import CategoryPage from './Components/ListCategory/CategoryPage';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/detail' element={<DetailProduct />} />
         <Route path='/profile' element={<ProfilePage />} />
+        <Route path='/category' element={<CategoryPage />} />
       </Routes>
     </BrowserRouter>
     

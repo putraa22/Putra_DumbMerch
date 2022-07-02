@@ -1,0 +1,56 @@
+.Category-Container-content {
+    margin-top: 15px;
+    color: #fff;
+    
+  } 
+.Category-Container {
+    margin-top: 7rem;
+    color: #fff;
+  } 
+
+.btn-edit {
+    background-color: #56c05a;
+    width: 135px;
+    height: 40px;
+}
+  
+.btn-delete {
+    background-color: #f74d4d;
+    width: 135px;
+    height: 40px;
+}
+
+.l-content {
+    padding-top: 50px;
+}
+  
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.Category-Header{
+    text-align: center;
+    padding-bottom: 7px;
+    font-weight: 700;
+}
+
+.Category-Name{
+    text-align: center;
+}
+
+.Row{
+    border-bottom: 2px solid #fff;
+    background-color: rgb(58, 58, 58);
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+.Row-2{
+    border-bottom: 2px solid #fff;
+    background-color: rgb(85, 85, 85);
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+
+
+  
