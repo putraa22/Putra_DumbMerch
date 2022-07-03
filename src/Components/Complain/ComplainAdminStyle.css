@@ -1,0 +1,25 @@
+.complain-Container {
+    margin-top: 7rem;
+    color: #fff;
+  }
+  
+.Complain-user-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-top: 8px;
+}
+
+.Complain-Chat-User{
+    float: right;
+}
+
+
+  .msgadm-row {
+    height: 500px;
+  }
+  
+  .chat-user {
+    border-right: 1px #6a6a6a solid;
+  }
+  

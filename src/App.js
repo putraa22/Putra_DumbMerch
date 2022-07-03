@@ -14,6 +14,7 @@ import ProfilePage from './Components/Profile/ProfilePage';
 import CategoryPage from './Components/ListCategory/CategoryPage';
 import ListProduct from './Components/ListProduct/ListProduct';
 import EditProduct from './Components/EditProduct/EditProduct';
+import ComplainAdmin from './Components/Complain/ComplainAdmin';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path='/category' element={<CategoryPage />} />
         <Route path='/list' element={<ListProduct />} />
         <Route path='/edit-product' element={<EditProduct />} />
+        <Route path='/complain' element={<ComplainAdmin />} />
       </Routes>
     </BrowserRouter>
     
